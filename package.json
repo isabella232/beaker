@@ -2,12 +2,12 @@
   "bin": "./tasks/start-cli.js",
   "name": "beakerbrowser",
   "devDependencies": {
-    "browserify": "^13.0.1",
+    "browserify": "^16.2.2",
     "electron": "2.0.2",
-    "electron-builder": "~20.8.0",
+    "electron-builder": "~20.15.1",
     "eslint": "^4.5.0",
     "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "fs-jetpack": "^1.2.0",
@@ -16,15 +16,15 @@
     "gulp-less": "^3.0.3",
     "gulp-plumber": "^1.1.0",
     "gulp-util": "^3.0.6",
-    "gulp-watch": "^4.3.5",
-    "into-stream": "^2.0.1",
+    "gulp-watch": "^5.0.0",
+    "into-stream": "^3.1.0",
     "q": "^1.4.1",
-    "rollup": "^0.41.0",
-    "yargs": "^4.2.0"
+    "rollup": "^0.59.4",
+    "yargs": "^11.0.0"
   },
   "optionalDependencies": {
-    "appdmg": "^0.4.5",
-    "rcedit": "^0.5.0"
+    "appdmg": "^0.5.2",
+    "rcedit": "^1.1.0"
   },
   "build": {
     "appId": "com.pfrazee.beaker-browser",
